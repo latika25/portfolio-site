@@ -1,0 +1,220 @@
+{
+  "nodes": [
+    {
+      "id": "core",
+      "type": "core",
+      "label": "Latika Swarnkar",
+      "subtitle": "Backend Software Engineer",
+      "description": "Backend-focused Software Engineer with 4+ years building distributed, cloud-native systems and data pipelines (Go, Node.js, AWS, DynamoDB). Strong in system design, async event-driven architectures, AI-powered workflow automation, CI/CD, and end-to-end feature delivery.",
+      "links": [
+        { "label": "LinkedIn", "url": "https://www.linkedin.com/in/latika-swarnkar-2922771b3/" },
+        { "label": "GitHub", "url": "https://github.com/latika25" },
+        { "label": "LeetCode", "url": "https://leetcode.com/u/LS_25/" },
+        { "label": "GeeksForGeeks", "url": "https://www.geeksforgeeks.org/profile/18ucc078" }
+      ],
+      "position": { "x": 0, "y": 0, "z": 0 },
+      "size": 1.8
+    },
+
+    {
+      "id": "exp-demystdata-anz",
+      "type": "experience",
+      "label": "DemystData \u2192 ANZ",
+      "subtitle": "Software Engineer \u2014 Backend \u00b7 Nov 2023 \u2013 Present",
+      "description": "DemystData (Nov 2023 \u2013 Aug 2025) \u2192 ANZ (Aug 2025 \u2013 Present)",
+      "bullets": [
+        "Owned end-to-end system design and delivery of a save-and-resume feature, improving user conversion by 80% and engagement across the platform.",
+        "Optimized distributed data workflows and Node.js async pipelines, reducing P99 latency ~35% under peak traffic by parallelizing independent DB calls and eliminating unnecessary data fetches.",
+        "Architected and shipped 4+ production microservices in Go and Node.js, enabling independent deployment, horizontal scalability, and fault isolation across the platform.",
+        "Built end-to-end CI/CD pipelines with Playwright automated test coverage, reducing production incidents and enabling reliable weekly releases."
+      ],
+      "tech": ["Go", "Node.js", "TypeScript", "DynamoDB", "AWS SQS", "AWS SNS", "AWS Lambda", "Docker", "React", "Playwright"],
+      "position": { "x": 6, "y": 1.5, "z": -2 },
+      "size": 1.4
+    },
+    {
+      "id": "exp-innovaccer-sde1",
+      "type": "experience",
+      "label": "Innovaccer \u2014 SDE I",
+      "subtitle": "Software Development Engineer \u2013 1 \u00b7 Jul 2022 \u2013 Nov 2023 \u00b7 Noida, Uttar Pradesh",
+      "bullets": [
+        "Collaborated with ACOs to translate healthcare data requirements into scalable application designs, reducing data intake cycle time.",
+        "Built Python + PostgreSQL data ingestion pipelines to normalize raw patient data from multiple source systems into standardized schemas, improving downstream data reliability and reducing intake cycle time."
+      ],
+      "tech": ["Python", "PostgreSQL"],
+      "position": { "x": -6, "y": 1, "z": -3 },
+      "size": 1.1
+    },
+    {
+      "id": "exp-innovaccer-intern",
+      "type": "experience",
+      "label": "Innovaccer \u2014 SDE Intern",
+      "subtitle": "Jan 2022 \u2013 Jun 2022 \u00b7 Noida, Uttar Pradesh",
+      "bullets": [
+        "Built full-stack features using the MERN stack plus Python, Flask, MySQL, HTML, and CSS during a comprehensive training program."
+      ],
+      "tech": ["MongoDB", "Express.js", "React", "Node.js", "Python", "Flask", "MySQL", "HTML", "CSS"],
+      "position": { "x": -7.5, "y": -1.2, "z": -1 },
+      "size": 0.9
+    },
+
+    {
+      "id": "proj-ai-resume-screener",
+      "type": "project",
+      "label": "AI Resume Screener",
+      "subtitle": "Node.js \u00b7 TypeScript \u00b7 Anthropic Claude API",
+      "description": "Production-ready REST API using the Anthropic Claude API to analyze resume-to-job-description fit, returning structured JSON with match score, skill gaps, strengths, and a tailored resume summary.",
+      "bullets": [
+        "Structured JSON output: match score, skill gaps, strengths, tailored resume summary.",
+        "Async streaming via Server-Sent Events for real-time analysis delivery, demonstrating event-driven async pipeline design with Node.js and TypeScript."
+      ],
+      "tech": ["Node.js", "TypeScript", "Anthropic Claude API", "Express.js", "REST APIs", "SSE"],
+      "links": [{ "label": "GitHub", "url": "https://github.com/latika25/ai-resume-screener" }],
+      "position": { "x": 3, "y": 3.2, "z": 3 },
+      "size": 1
+    },
+    {
+      "id": "proj-bookstore",
+      "type": "project",
+      "label": "BookStore App",
+      "subtitle": "MongoDB \u00b7 Node.js \u00b7 React",
+      "description": "Full-stack MERN application with role-based access control (User + Admin), RESTful API design, and CRUD operations.",
+      "bullets": [
+        "JWT-based authentication with User + Admin roles.",
+        "Wishlist management, book search/filter by category, and admin inventory management."
+      ],
+      "tech": ["MongoDB", "Node.js", "React", "JavaScript", "HTML", "CSS", "Git"],
+      "links": [{ "label": "GitHub", "url": "https://github.com/latika25/BOOKSTORE_MERN" }],
+      "position": { "x": -3, "y": 3, "z": 3.5 },
+      "size": 0.9
+    },
+    {
+      "id": "proj-flood-detector",
+      "type": "project",
+      "label": "Smart Flood Detector",
+      "subtitle": "Deep Learning \u00b7 Python \u00b7 Flask \u00b7 CNN \u00b7 MobileNet",
+      "description": "CNN-based image classifier using Keras pre-trained MobileNet to predict flood probability; deployed as a Flask REST API with real-time inference under 2 seconds.",
+      "bullets": [
+        "Keras pre-trained MobileNet classifier for flood probability prediction.",
+        "Integrated event-driven alert system that auto-triggers notifications on flood detection, demonstrating async pipeline design."
+      ],
+      "tech": ["Python", "Flask", "CNN", "MobileNet", "HTML", "Bootstrap"],
+      "links": [{ "label": "GitHub", "url": "https://github.com/latika25/Smart-Flood-Detector" }],
+      "position": { "x": 0, "y": 3.8, "z": -3.5 },
+      "size": 0.9
+    },
+
+    { "id": "skill-go", "type": "skill", "label": "Go", "category": "Languages", "position": {"x": 0.0, "y": 6.65, "z": 0.0}, "size": 0.72 },
+    { "id": "skill-python", "type": "skill", "label": "Python", "category": "Languages", "position": {"x": -2.48, "y": 6.22, "z": 2.27}, "size": 0.72 },
+    { "id": "skill-js", "type": "skill", "label": "JavaScript", "category": "Languages", "position": {"x": 0.41, "y": 5.79, "z": -4.65}, "size": 0.62 },
+    { "id": "skill-ts", "type": "skill", "label": "TypeScript", "category": "Languages", "position": {"x": 3.42, "y": 5.36, "z": 4.46}, "size": 0.68 },
+    { "id": "skill-cpp", "type": "skill", "label": "C++", "category": "Languages", "position": {"x": -6.27, "y": 4.93, "z": -1.11}, "size": 0.55 },
+
+    { "id": "skill-react", "type": "skill", "label": "React", "category": "Frontend", "position": {"x": 5.9, "y": 4.5, "z": -3.75}, "size": 0.62 },
+    { "id": "skill-html", "type": "skill", "label": "HTML5", "category": "Frontend", "position": {"x": -1.95, "y": 4.08, "z": 7.25}, "size": 0.5 },
+    { "id": "skill-css", "type": "skill", "label": "CSS3", "category": "Frontend", "position": {"x": -3.66, "y": 3.65, "z": -7.05}, "size": 0.5 },
+
+    { "id": "skill-node", "type": "skill", "label": "Node.js", "category": "Backend", "position": {"x": 7.81, "y": 3.22, "z": 2.85}, "size": 0.72 },
+    { "id": "skill-express", "type": "skill", "label": "Express.js", "category": "Backend", "position": {"x": -7.97, "y": 2.79, "z": 3.29}, "size": 0.55 },
+    { "id": "skill-flask", "type": "skill", "label": "Flask", "category": "Backend", "position": {"x": 3.76, "y": 2.36, "z": -8.04}, "size": 0.55 },
+    { "id": "skill-rest", "type": "skill", "label": "REST APIs", "category": "Backend", "position": {"x": 2.72, "y": 1.93, "z": 8.67}, "size": 0.55 },
+    { "id": "skill-microservices", "type": "skill", "label": "Microservices", "category": "Backend", "position": {"x": -8.01, "y": 1.5, "z": -4.64}, "size": 0.6 },
+    { "id": "skill-eda", "type": "skill", "label": "Event-Driven Architecture", "category": "Backend", "position": {"x": 9.16, "y": 1.07, "z": -2.01}, "size": 0.6 },
+
+    { "id": "skill-claude", "type": "skill", "label": "Claude API", "category": "AI & Automation", "position": {"x": -5.44, "y": 0.64, "z": 7.74}, "size": 0.6 },
+    { "id": "skill-openai", "type": "skill", "label": "OpenAI API", "category": "AI & Automation", "position": {"x": -1.22, "y": 0.21, "z": -9.42}, "size": 0.55 },
+    { "id": "skill-llm", "type": "skill", "label": "LLM Integration", "category": "AI & Automation", "position": {"x": 7.26, "y": -0.21, "z": 6.12}, "size": 0.55 },
+    { "id": "skill-workflow-automation", "type": "skill", "label": "Workflow Automation", "category": "AI & Automation", "position": {"x": -9.45, "y": -0.64, "z": 0.39}, "size": 0.55 },
+
+    { "id": "skill-dynamodb", "type": "skill", "label": "DynamoDB", "category": "Databases", "position": {"x": 6.65, "y": -1.07, "z": -6.61}, "size": 0.68 },
+    { "id": "skill-postgres", "type": "skill", "label": "PostgreSQL", "category": "Databases", "position": {"x": -0.43, "y": -1.5, "z": 9.24}, "size": 0.6 },
+    { "id": "skill-mongodb", "type": "skill", "label": "MongoDB", "category": "Databases", "position": {"x": -5.82, "y": -1.93, "z": -6.98}, "size": 0.58 },
+    { "id": "skill-mysql", "type": "skill", "label": "MySQL", "category": "Databases", "position": {"x": 8.8, "y": -2.36, "z": 1.18}, "size": 0.55 },
+
+    { "id": "skill-aws", "type": "skill", "label": "AWS (EC2, S3, Lambda)", "category": "Cloud & DevOps", "position": {"x": -7.08, "y": -2.79, "z": 4.93}, "size": 0.72 },
+    { "id": "skill-docker", "type": "skill", "label": "Docker", "category": "Cloud & DevOps", "position": {"x": 1.82, "y": -3.22, "z": -8.11}, "size": 0.6 },
+    { "id": "skill-k8s", "type": "skill", "label": "Kubernetes", "category": "Cloud & DevOps", "position": {"x": 3.95, "y": -3.65, "z": 6.89}, "size": 0.55 },
+    { "id": "skill-cicd", "type": "skill", "label": "CI/CD", "category": "Cloud & DevOps", "position": {"x": -7.15, "y": -4.08, "z": -2.28}, "size": 0.55 },
+    { "id": "skill-github-actions", "type": "skill", "label": "GitHub Actions", "category": "Cloud & DevOps", "position": {"x": 6.34, "y": -4.5, "z": -2.93}, "size": 0.5 },
+
+    { "id": "skill-playwright", "type": "skill", "label": "Playwright", "category": "Testing", "position": {"x": -2.46, "y": -4.93, "z": 5.88}, "size": 0.55 },
+    { "id": "skill-jest", "type": "skill", "label": "Jest", "category": "Testing", "position": {"x": -1.9, "y": -5.36, "z": -5.29}, "size": 0.5 },
+    { "id": "skill-vitest", "type": "skill", "label": "Vitest", "category": "Testing", "position": {"x": 4.13, "y": -5.79, "z": 2.17}, "size": 0.5 },
+
+    { "id": "skill-git", "type": "skill", "label": "Git", "category": "Tools", "position": {"x": -3.25, "y": -6.22, "z": 0.86}, "size": 0.5 },
+    { "id": "skill-agile", "type": "skill", "label": "Agile/Scrum", "category": "Tools", "position": {"x": 0.0, "y": -6.65, "z": 0.0}, "size": 0.5 },
+
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Get In Touch",
+      "subtitle": "Open a channel",
+      "description": "Send a message \u2014 it lands directly in my inbox.",
+      "position": { "x": 0, "y": -5.5, "z": 0 },
+      "size": 1
+    }
+  ],
+
+  "edges": [
+    { "source": "core", "target": "exp-demystdata-anz", "kind": "flow" },
+    { "source": "exp-demystdata-anz", "target": "exp-innovaccer-sde1", "kind": "flow" },
+    { "source": "exp-innovaccer-sde1", "target": "exp-innovaccer-intern", "kind": "flow" },
+
+    { "source": "core", "target": "proj-ai-resume-screener", "kind": "flow" },
+    { "source": "core", "target": "proj-bookstore", "kind": "flow" },
+    { "source": "core", "target": "proj-flood-detector", "kind": "flow" },
+
+    { "source": "core", "target": "contact", "kind": "flow" },
+
+    { "source": "exp-demystdata-anz", "target": "skill-go", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-node", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-ts", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-dynamodb", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-aws", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-docker", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-playwright", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-react", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-microservices", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-eda", "kind": "uses" },
+    { "source": "exp-demystdata-anz", "target": "skill-cicd", "kind": "uses" },
+
+    { "source": "exp-innovaccer-sde1", "target": "skill-python", "kind": "uses" },
+    { "source": "exp-innovaccer-sde1", "target": "skill-postgres", "kind": "uses" },
+
+    { "source": "exp-innovaccer-intern", "target": "skill-react", "kind": "uses" },
+    { "source": "exp-innovaccer-intern", "target": "skill-node", "kind": "uses" },
+    { "source": "exp-innovaccer-intern", "target": "skill-mongodb", "kind": "uses" },
+    { "source": "exp-innovaccer-intern", "target": "skill-express", "kind": "uses" },
+    { "source": "exp-innovaccer-intern", "target": "skill-flask", "kind": "uses" },
+    { "source": "exp-innovaccer-intern", "target": "skill-mysql", "kind": "uses" },
+    { "source": "exp-innovaccer-intern", "target": "skill-python", "kind": "uses" },
+    { "source": "exp-innovaccer-intern", "target": "skill-html", "kind": "uses" },
+    { "source": "exp-innovaccer-intern", "target": "skill-css", "kind": "uses" },
+
+    { "source": "proj-ai-resume-screener", "target": "skill-node", "kind": "uses" },
+    { "source": "proj-ai-resume-screener", "target": "skill-ts", "kind": "uses" },
+    { "source": "proj-ai-resume-screener", "target": "skill-claude", "kind": "uses" },
+    { "source": "proj-ai-resume-screener", "target": "skill-express", "kind": "uses" },
+    { "source": "proj-ai-resume-screener", "target": "skill-rest", "kind": "uses" },
+
+    { "source": "proj-bookstore", "target": "skill-mongodb", "kind": "uses" },
+    { "source": "proj-bookstore", "target": "skill-react", "kind": "uses" },
+    { "source": "proj-bookstore", "target": "skill-node", "kind": "uses" },
+    { "source": "proj-bookstore", "target": "skill-js", "kind": "uses" },
+    { "source": "proj-bookstore", "target": "skill-html", "kind": "uses" },
+    { "source": "proj-bookstore", "target": "skill-css", "kind": "uses" },
+    { "source": "proj-bookstore", "target": "skill-git", "kind": "uses" },
+
+    { "source": "proj-flood-detector", "target": "skill-python", "kind": "uses" },
+    { "source": "proj-flood-detector", "target": "skill-flask", "kind": "uses" },
+
+    { "source": "skill-docker", "target": "skill-k8s", "kind": "uses" },
+    { "source": "skill-cicd", "target": "skill-github-actions", "kind": "uses" },
+    { "source": "skill-cicd", "target": "skill-jest", "kind": "uses" },
+    { "source": "skill-cicd", "target": "skill-vitest", "kind": "uses" },
+    { "source": "skill-agile", "target": "skill-git", "kind": "uses" },
+    { "source": "skill-claude", "target": "skill-llm", "kind": "uses" },
+    { "source": "skill-openai", "target": "skill-llm", "kind": "uses" },
+    { "source": "skill-llm", "target": "skill-workflow-automation", "kind": "uses" }
+  ]
+}

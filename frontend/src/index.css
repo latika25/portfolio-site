@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'IBM Plex Mono', monospace;
+    overscroll-behavior: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  /* Respect reduced-motion preferences: the R3F scene checks this in JS too,
+     but this covers any CSS-driven transitions in the overlay UI. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: theme('colors.space.border');
+    border-radius: 999px;
+  }
+}
